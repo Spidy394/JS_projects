@@ -1,5 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
 
 .container {
+  margin: 23px;
   width: 575px;
   height: 825px;
   background-color: #797978;
@@ -12,6 +23,7 @@
 }
 
 #weight-guide {
+  line-height: 35px;
   margin-left: 75px;
   margin-top: 25px;
 }
@@ -41,20 +53,4 @@ button {
 h1 {
   padding-left: 15px;
   padding-top: 25px;
-}
-
-a {
-    
-  background-color: #fff;
-  padding: 10px 30px;
-  border: 2px solid #212121;
-  border-radius: 20px;
-  color: #212121;
-  text-decoration: none;
-}
-
-a:hover {
-  background-color: #212121;
-  color: #fff;
-  border-radius: 20px;
 }
